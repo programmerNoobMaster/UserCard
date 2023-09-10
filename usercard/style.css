@@ -17,18 +17,74 @@
 
 .sub-container {
   background: #ffffff;
-  width: 55%;
+  width: 500px;
   height: 30%;
   border-radius: 15px;
   overflow: hidden;
   display: flex;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+  padding: 0;
 }
-
+h1 {
+  font-size: 26px;
+}
+h3 {
+  font-size: 16px;
+}
+h3:nth-of-type(1) {
+  margin-top: 10px;
+}
+h3:nth-of-type(2) {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .user-image {
-  width: 35%;
+  width: 180px;
   max-width: 200px;
   overflow: hidden;
+}
+
+.img-container {
+  background: linear-gradient(to bottom, #25233a, white);
+}
+.information {
+  padding: 15px;
+}
+.btn-skills {
+  font-size: 10px;
+  background: #e9e8ed;
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.message-btn {
+  border: none;
+  background: #25233a;
+  padding: 10px 15px;
+  color: white;
+  width: 170px;
+  border-radius: 10px;
+  font-weight: 700;
+  margin-top: 10px;
+  cursor: pointer;
+}
+hr {
+  margin-top: 10px;
+  color: rgba(211, 211, 211, 0.2);
+}
+.more-btn {
+  border: 1px solid #25233a;
+  background: transparent;
+  padding: 10px 15px;
+  color: black;
+  border-radius: 10px;
+  font-weight: 700;
+  margin-top: 10px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
