@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=Outfit:wght@400;700&family=Poppins:ital,wght@1,300;1,400;1,500;1,600&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  background: #d4e0f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container {
+  background: #ffffff;
+  width: 55%;
+  height: 30%;
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.user-image {
+  width: 35%;
+  max-width: 200px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  .sub-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 250px;
+    height: 400px;
+  }
+  .user-image {
+    /* Adjust the size for phone screens */
+    margin: 0 20px;
+    width: 150px;
+  }
+
+  .user-name {
+    font-size: 18px; /* Adjust font size for phone screens */
+  }
+}
